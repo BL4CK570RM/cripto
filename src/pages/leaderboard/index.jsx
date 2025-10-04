@@ -1,6 +1,7 @@
 import React from 'react';
-import Icon from '../../../components/AppIcon';
-import Image from '../../../components/AppImage';
+import Icon from '../../components/AppIcon';
+import Image from '../../components/AppImage';
+
 
 const UserPositionCard = ({ currentUser, userRank, nextTierInfo }) => {
   const formatBalance = (balance) => {
